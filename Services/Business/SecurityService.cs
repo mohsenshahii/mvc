@@ -14,7 +14,6 @@ namespace mvc.Services.Business
         public bool Authenticate(userModel user)
         {
             return daoService.FindByUser(user);
-
         }
 
             
